@@ -8,7 +8,7 @@ public class AE1_3 {
 
 	public static void main(String[] args) {
 		
-		int numero = 6;
+		int numero = 8;
 		int consola = sumaPares(numero);
 		System.out.println(consola);
 
@@ -22,7 +22,7 @@ public class AE1_3 {
 			if(num %2 == 0) {
 				valor += i;
 			}
-			System.out.println(valor);
+			
 		}
 		
 		return valor;		
